@@ -4,8 +4,9 @@
 # ChromaDB persistent storage
 chroma_db*/
 
-# Source PDF (do not commit)
-data/
+# Source data — PDF is committed; any other large files in data/ are not
+data/*
+!data/*.pdf
 
 # Jupyter checkpoints
 .ipynb_checkpoints/
