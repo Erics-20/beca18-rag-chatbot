@@ -53,15 +53,9 @@ You can obtain a free API key at [aistudio.google.com](https://aistudio.google.c
 
 > **Free-tier limits:** `gemini-embedding-001` allows 1,000 embedding requests per day and ~100 per minute. The notebook handles rate limits automatically with exponential backoff and detects daily quota exhaustion immediately so it fails fast with a clear message.
 
-### 4. Add the source PDF
+### 4. Source PDF
 
-Place the regulation document inside the `data/` folder:
-
-```
-data/beca18_reglamento.pdf
-```
-
-The folder is gitignored, so the file will not be committed. If running in Google Colab, the notebook uploads the PDF from Google Drive automatically.
+`data/beca18_reglamento.pdf` is already committed to the repository and is included automatically when you clone. No manual download or upload is required.
 
 ---
 
